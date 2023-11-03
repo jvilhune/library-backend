@@ -48,9 +48,14 @@ mongoose.connect(MONGODB_URI)
   })
 
 
+
+
 // setup is now within a function
 const start = async () => {
   const app = express()
+
+  app.use(express.static('dist'))
+
   const httpServer = http.createServer(app)
 
   const wsServer = new WebSocketServer({
