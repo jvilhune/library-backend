@@ -54,7 +54,7 @@ mongoose.connect(MONGODB_URI)
 const start = async () => {
   const app = express()
 
-  app.use(express.static('build'))
+  app.use(express.static('dist'))
 
   const httpServer = http.createServer(app)
 
