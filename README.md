@@ -53,3 +53,15 @@ const httpLink = new HttpLink({ uri: 'https://library-backend-ue20.onrender.com/
 url: 'ws://localhost:4000'
 ->
 url: 'ws://library-backend-ue20.onrender.com/'
+
+LIBRARY-BACKEND https://library-backend-ue20.onrender.com
+
+Do not try to compile it. Just put it into github and make a web service in https://dashboard.render.com/
+Get address from render (for example) https://library-backend-ue20.onrender.com
+Open browser and connect to https://library-backend-ue20.onrender.com
+
+LIBRARY-FRONTEND https://library-frontend-l6lm.onrender.com/
+
+Compile it (npm run build). Put it into github and make a web service in https://dashboard.render.com/
+Get address from render (for example) https://library-frontend-l6lm.onrender.com/
+Open browser and connect to https://library-frontend-l6lm.onrender.com/
